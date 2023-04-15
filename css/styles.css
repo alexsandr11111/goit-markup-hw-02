@@ -40,9 +40,10 @@ body {
 /* ------------------ HEDER---------------- */
 /* -----logo----- */
 .heder-logo {
+  font-family: var(--secondery-fon);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -64,6 +65,12 @@ body {
 
   color: var(--color-grey);
 }
+.nav:hover {
+  color: var(--color-ocean);
+}
+.nav:focus {
+  color: var(--color-ocean);
+}
 .address-mail {
   font-family: var(--main-fon);
 
@@ -80,23 +87,7 @@ body {
 .address-mail:focus {
   color: var(--color-ocean);
 }
-.address-tel {
-  font-family: var(--main-fon);
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
-  color: var(--color-slate);
-}
-.address-tel:hover {
-  color: var(--color-ocean);
-}
-.address-tel:focus {
-  color: var(--color-ocean);
-}
 /* -------/nav----- */
 /* =============================== INDEX.HTML=========================== */
 /* --------heroy-------- */
