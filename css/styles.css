@@ -143,6 +143,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 .features-list-text {
   font-size: 16px;
@@ -160,10 +161,16 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--color-grey);
 }
 /* ------ /galerey-section -------- */
 /* -------------- description ------------ */
-
+.description {
+  background-color: #f4f4fd;
+}
+.description-img {
+  background-color: var(--color-white);
+}
 .description-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,12 +178,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--color-grey);
 }
 .description-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 .description-text {
   font-size: 16px;
